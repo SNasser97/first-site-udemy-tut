@@ -172,18 +172,6 @@ ul.social {
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
-	.jumbotron {
-	text-align: center;
-	/* Get out of css folder (../) then into img foler (/img/) */
-	position:fixed;
-	background: url("../img/Hero-Image.jpg") fixed center;
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-	background-size: cover;
-	color: #fff;
-	}
 
 }
 
