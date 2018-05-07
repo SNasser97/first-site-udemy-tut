@@ -1,0 +1,206 @@
+/* Move content below, fixed navbar is 50px tall */
+
+body {padding-top: 50px;}
+
+footer {
+	/* Original colour for BG is F74C3C */
+  background-color: #E24739;
+  padding-top: 140px;
+  padding-bottom: 30px;
+}
+
+#get-involved {background-color: #f5f5f5;}
+
+/*--------------- NAVIGATION SECTION ---------------*/
+
+ul.nav, .jumbotron h1, .jumbotron p {
+	font-family: "Rokkitt", courier, serif;
+
+}
+
+ul.nav {font-size: 16px;}
+
+@keyframes example {
+	 50% {opacity: 0.0;}
+}
+#blink {
+	    animation: example 1s linear infinite;
+
+}
+
+/*--------------- HOMEPAGE IMAGE SECTION ---------------*/
+
+.jumbotron {
+	text-align: center;
+	/* Get out of css folder (../) then into img foler (/img/) */
+	background: url("../img/Hero-Image.jpg") fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+
+.jumbotron h1 {
+	margin-top: 0;
+	margin-bottom: 50px;
+	
+}
+
+.jumbotron p {
+	margin-bottom: 30px;
+	font-weight: 300;
+	padding: 0 50px;
+}
+
+.btn-lg {font-size: 36px;}
+
+.fa-stack {transition: all 0.2s;}
+.fa-stack:hover {color: #d9534f;}
+
+.homepage {
+	text-align:center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+
+/*--------------- HOMEPAGE HEADING AND PARAGRAPH STYLES ---------------*/
+
+.homepage h2, .homepage h3 {
+	color: #e74c3c;
+	font-family: "Rokkitt", courier, serif;
+	text-transform: uppercase;
+}
+
+.homepage h2 {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.homepage h3 {
+	color: #e74c3c;
+	font-size: 26px;
+}
+
+.homepage p {
+	font-size: 19px;
+    font-family: "Rokkitt", courier, serif;
+    font-weight: 300;
+}
+
+.homepage a {color: #e74c3c;}
+
+.homepage a:hover {
+	color: #e74c3c;
+	text-decoration: none;
+	opacity: .6;
+}
+
+.homepage hr {
+	border-top: 1px solid #e74c3c;
+	width: 150px;
+	margin-top: 15px;
+}
+
+.col-md-4 {box-shadow: 2px 1px 3px #ECECEC;padding-bottom: 	20px; padding-top: 20px;}
+
+/*--------------- FOOTER/SOCIAL MEDIA ICONS ---------------*/
+
+ul.social {
+	display: flex;
+    justify-content: center;
+   	flex-direction: row-reverse;
+    margin-left: 15px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.social li {margin-right: 20px;}
+
+.social li a:link, 
+.social li a:visited {
+	color: #fff;
+	opacity:0.8;
+	transition: all 0.2s;
+
+}
+
+.social li a:hover {
+	opacity: 1;
+	color: #fff;
+
+}
+
+#Copyright {
+	opacity: .6;
+	color: #fff;
+	text-align: center;
+}
+
+.logo-bottom {margin-bottom: 20px;}
+
+
+/*--------------- RESPONSIVE MEDIA QUERIES ---------------*/
+
+
+@media (max-width: 1199px) {
+	.jumbotron h1 {
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+
+	ul.social {
+		font-size: 1.2em;
+	}
+}
+
+@media (max-width: 991px) {
+	.jumbotron h1 {
+		font-size: 44px;
+		margin-bottom: 30px;
+	}
+
+	.jumbotron p {
+		padding: 0 10px;
+	}
+
+	#get-involved .col-md-4 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	
+
+}
+
+@media (max-width: 767px) {
+	.jumbotron h1 {
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0px;
+	}
+
+
+
+	.btn-lg {
+		font-size: 18px;
+	}
+
+	.homepage p {
+		font-size: 18px;
+	}
+
+	footer .logo-bottom {width: 80%;}
+	
+}
+
+
+@media (max-width: 767px) {
+
+}
+
+/*@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+	
+}*/
