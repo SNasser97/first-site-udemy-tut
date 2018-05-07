@@ -40,6 +40,7 @@ ul.nav {font-size: 16px;}
         -moz-background-size: 100%;
         -o-background-size: 100%;
 	background-size: 100%;
+	background-position-y: bottom;
 	color: #fff;
 }
 
