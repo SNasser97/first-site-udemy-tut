@@ -31,16 +31,15 @@ ul.nav {font-size: 16px;}
 /*--------------- HOMEPAGE IMAGE SECTION ---------------*/
 
 .jumbotron {
-	
 	text-align: center;
 	/* Get out of css folder (../) then into img foler (/img/) */
+	position:static;
 	background: url("../img/Hero-Image.jpg") fixed;
 	background-repeat: no-repeat;
-	-webkit-background-size: 100%;
-        -moz-background-size: 100%;
-        -o-background-size: 100%;
-	background-size: 100%;
-	background-position-y: bottom;
+	-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+	background-size: cover;
 	color: #fff;
 }
 
