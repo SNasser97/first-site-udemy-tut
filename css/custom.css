@@ -1,5 +1,7 @@
 /* Move content below, fixed navbar is 50px tall */
-
+* {
+box-sizing:border-box;
+}
 body {padding-top: 50px;}
 
 footer {
