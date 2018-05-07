@@ -40,6 +40,9 @@ ul.nav {font-size: 16px;}
 	/* Get out of css folder (../) then into img foler (/img/) */
 	background: url("../img/Hero-Image.jpg") fixed;
 	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
 	background-size: cover;
 	color: #fff;
 }
